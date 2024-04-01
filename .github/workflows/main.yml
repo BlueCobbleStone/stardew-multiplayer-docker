@@ -31,7 +31,6 @@ jobs:
         with:
           platforms: |-
               linux/amd64
-              linux/arm64
           context: "{{defaultContext}}:docker"
           push: true
           tags: bluecobblestone/stardew-multiplayer-docker:latest
